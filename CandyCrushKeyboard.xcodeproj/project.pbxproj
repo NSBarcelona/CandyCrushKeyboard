@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		874F1AB418BCE0CF006C1323 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874F1AB318BCE0CF006C1323 /* Foundation.framework */; };
+		874F1AB618BCE0CF006C1323 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874F1AB518BCE0CF006C1323 /* CoreGraphics.framework */; };
+		874F1AB818BCE0CF006C1323 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874F1AB718BCE0CF006C1323 /* UIKit.framework */; };
+		874F1ABE18BCE0CF006C1323 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 874F1ABC18BCE0CF006C1323 /* InfoPlist.strings */; };
+		874F1AC018BCE0CF006C1323 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 874F1ABF18BCE0CF006C1323 /* main.m */; };
+		874F1AC418BCE0CF006C1323 /* BCNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 874F1AC318BCE0CF006C1323 /* BCNAppDelegate.m */; };
+		874F1AC618BCE0CF006C1323 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874F1AC518BCE0CF006C1323 /* Images.xcassets */; };
+		874F1AE418BCE11A006C1323 /* BCNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 874F1AE318BCE11A006C1323 /* BCNViewController.m */; };
+		874F1AE718BCE39E006C1323 /* BCNTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 874F1AE618BCE39E006C1323 /* BCNTextStorage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		874F1AB018BCE0CF006C1323 /* CandyCrushKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandyCrushKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		874F1AB318BCE0CF006C1323 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		874F1AB518BCE0CF006C1323 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		874F1AB718BCE0CF006C1323 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		874F1ABB18BCE0CF006C1323 /* CandyCrushKeyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CandyCrushKeyboard-Info.plist"; sourceTree = "<group>"; };
+		874F1ABD18BCE0CF006C1323 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		874F1ABF18BCE0CF006C1323 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		874F1AC118BCE0CF006C1323 /* CandyCrushKeyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CandyCrushKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		874F1AC218BCE0CF006C1323 /* BCNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCNAppDelegate.h; sourceTree = "<group>"; };
+		874F1AC318BCE0CF006C1323 /* BCNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCNAppDelegate.m; sourceTree = "<group>"; };
+		874F1AC518BCE0CF006C1323 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		874F1ACC18BCE0CF006C1323 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		874F1AE218BCE11A006C1323 /* BCNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCNViewController.h; sourceTree = "<group>"; };
+		874F1AE318BCE11A006C1323 /* BCNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCNViewController.m; sourceTree = "<group>"; };
+		874F1AE518BCE39E006C1323 /* BCNTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCNTextStorage.h; sourceTree = "<group>"; };
+		874F1AE618BCE39E006C1323 /* BCNTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCNTextStorage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		874F1AAD18BCE0CF006C1323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874F1AB618BCE0CF006C1323 /* CoreGraphics.framework in Frameworks */,
+				874F1AB818BCE0CF006C1323 /* UIKit.framework in Frameworks */,
+				874F1AB418BCE0CF006C1323 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		874F1AA718BCE0CF006C1323 = {
+			isa = PBXGroup;
+			children = (
+				874F1AB918BCE0CF006C1323 /* CandyCrushKeyboard */,
+				874F1AB218BCE0CF006C1323 /* Frameworks */,
+				874F1AB118BCE0CF006C1323 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		874F1AB118BCE0CF006C1323 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				874F1AB018BCE0CF006C1323 /* CandyCrushKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		874F1AB218BCE0CF006C1323 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				874F1AB318BCE0CF006C1323 /* Foundation.framework */,
+				874F1AB518BCE0CF006C1323 /* CoreGraphics.framework */,
+				874F1AB718BCE0CF006C1323 /* UIKit.framework */,
+				874F1ACC18BCE0CF006C1323 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		874F1AB918BCE0CF006C1323 /* CandyCrushKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				874F1AC218BCE0CF006C1323 /* BCNAppDelegate.h */,
+				874F1AC318BCE0CF006C1323 /* BCNAppDelegate.m */,
+				874F1AE518BCE39E006C1323 /* BCNTextStorage.h */,
+				874F1AE618BCE39E006C1323 /* BCNTextStorage.m */,
+				874F1AE218BCE11A006C1323 /* BCNViewController.h */,
+				874F1AE318BCE11A006C1323 /* BCNViewController.m */,
+				874F1AC518BCE0CF006C1323 /* Images.xcassets */,
+				874F1ABA18BCE0CF006C1323 /* Supporting Files */,
+			);
+			path = CandyCrushKeyboard;
+			sourceTree = "<group>";
+		};
+		874F1ABA18BCE0CF006C1323 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				874F1ABB18BCE0CF006C1323 /* CandyCrushKeyboard-Info.plist */,
+				874F1ABC18BCE0CF006C1323 /* InfoPlist.strings */,
+				874F1ABF18BCE0CF006C1323 /* main.m */,
+				874F1AC118BCE0CF006C1323 /* CandyCrushKeyboard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		874F1AAF18BCE0CF006C1323 /* CandyCrushKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874F1ADC18BCE0CF006C1323 /* Build configuration list for PBXNativeTarget "CandyCrushKeyboard" */;
+			buildPhases = (
+				874F1AAC18BCE0CF006C1323 /* Sources */,
+				874F1AAD18BCE0CF006C1323 /* Frameworks */,
+				874F1AAE18BCE0CF006C1323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CandyCrushKeyboard;
+			productName = FruitKeyboard;
+			productReference = 874F1AB018BCE0CF006C1323 /* CandyCrushKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		874F1AA818BCE0CF006C1323 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BCN;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Hermes Pique";
+			};
+			buildConfigurationList = 874F1AAB18BCE0CF006C1323 /* Build configuration list for PBXProject "CandyCrushKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 874F1AA718BCE0CF006C1323;
+			productRefGroup = 874F1AB118BCE0CF006C1323 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				874F1AAF18BCE0CF006C1323 /* CandyCrushKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		874F1AAE18BCE0CF006C1323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874F1ABE18BCE0CF006C1323 /* InfoPlist.strings in Resources */,
+				874F1AC618BCE0CF006C1323 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		874F1AAC18BCE0CF006C1323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874F1AE718BCE39E006C1323 /* BCNTextStorage.m in Sources */,
+				874F1AC418BCE0CF006C1323 /* BCNAppDelegate.m in Sources */,
+				874F1AC018BCE0CF006C1323 /* main.m in Sources */,
+				874F1AE418BCE11A006C1323 /* BCNViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		874F1ABC18BCE0CF006C1323 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874F1ABD18BCE0CF006C1323 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		874F1ADA18BCE0CF006C1323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		874F1ADB18BCE0CF006C1323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		874F1ADD18BCE0CF006C1323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FruitKeyboard/CandyCrushKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "FruitKeyboard/CandyCrushKeyboard-Info.plist";
+				PRODUCT_NAME = CandyCrushKeyboard;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		874F1ADE18BCE0CF006C1323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FruitKeyboard/CandyCrushKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "FruitKeyboard/CandyCrushKeyboard-Info.plist";
+				PRODUCT_NAME = CandyCrushKeyboard;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		874F1AAB18BCE0CF006C1323 /* Build configuration list for PBXProject "CandyCrushKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874F1ADA18BCE0CF006C1323 /* Debug */,
+				874F1ADB18BCE0CF006C1323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874F1ADC18BCE0CF006C1323 /* Build configuration list for PBXNativeTarget "CandyCrushKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874F1ADD18BCE0CF006C1323 /* Debug */,
+				874F1ADE18BCE0CF006C1323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 874F1AA818BCE0CF006C1323 /* Project object */;
+}
